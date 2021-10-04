@@ -79,6 +79,8 @@ a{
   text-decoration: none;
 }   
 
+a:hover{color:Red}
+
 input{  
   color: black;
 background: #666666;
