@@ -68,6 +68,10 @@ li{
   display: inline-block;
 }
 
+footer{
+  display: inline-block
+}
+
 a{
   color: white;
   padding: 10px;
