@@ -6,20 +6,17 @@ html{
     height: auto;
     background-size: cover;
     color: white;
-
 }
 
 *{
   margin: 0;
   box-sizing: border-box;
-  
 }
 
 body{
     height: 100vh;
     display: grid;
     place-items: center;
-  
 }
 
 p{margin: auto;
@@ -35,7 +32,6 @@ form{
   padding: 50px;
   align-self: auto;
   background: rgba( 255, 255, 255, 0.4 );
-
 }
 
 #thursimg{
@@ -68,10 +64,6 @@ li{
   display: inline-block;
 }
 
-footer{
-  display: inline-block
-}
-
 a{
   color: white;
   padding: 10px;
@@ -100,7 +92,6 @@ table{
 label{
   font-size:x-large;
   font-style: italic;
-
 }
       
 h1{
@@ -118,5 +109,4 @@ h1{
 }
 
 #AboutUsHeading{
-
 }
