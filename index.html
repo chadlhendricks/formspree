@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="./testimonial.html">
     <link rel="stylesheet" href="./pngwing.com.png">
     <link rel="stylesheet" href="./contact us.png">
+    <link rel="stylesheet" href="./page5.html">
 </head>
-<body style= "background-color: teal;">
+<body id="homepage">
       <!-- Navigation Bar -->
       <nav>
       <ul>
@@ -18,8 +19,22 @@
         <li><a href="./about.html">About</a></li>
         <li><a href="./contact.html">Contact</a></li> 
         <li><a href="./testimonial.html">Testimonial</a></li>
+        <li><a href="./timeline.html">Timeline</a></li>
       </ul>
     </nav>
-    <img src="./pngwing.com.png" alt="welcome screen">
+    <!-- Animation Welcome Screen -->
+    <div class="bg"> 
+      <img src="./pngwing.com.png">
+      <svg version="1.2" width="0" height="0" viewBox="0 0 740 600">
+        <defs>
+          <clipPath id="mask">
+            <rect x="0" y="0" width="600" height="300" fill="#000" id="cool_shape">
+              <animate attributeType="XML" xlink:href="#cool_shape" attributeName="x" from="-800" to="15000"
+                  dur="15s" repeatCount="indefinite"/>
+            </rect>
+          </clipPath>
+        </defs>
+      </svg>
+      </div>
 </body>
 </html>
