@@ -1,7 +1,7 @@
 html{
    background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(134, 28, 99, 0.73)),
-    url('https://i.picsum.photos/id/1016/3844/2563.jpg?hmac=WEryKFRvTdeae2aUrY-DHscSmZuyYI9jd_-p94stBvc');
+    url('https://picsum.photos/1920/1080');
     width: auto;
     height: auto;
     background-size: cover;
@@ -166,8 +166,8 @@ table{
  .flip-card {
    margin-top: -20%;
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   display: inline-flex;
 }
@@ -175,8 +175,8 @@ table{
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   text-align: center;
   transition: transform 0.8s;
   border-style:ridge;
@@ -200,8 +200,8 @@ table{
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: black;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   color: black;
 }
 
@@ -209,8 +209,8 @@ table{
 .flip-card-back {
   background-color: rgb(255, 30, 30);
   color: rgb(255, 255, 255);
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   transform: rotateY(180deg);
 } 
 
