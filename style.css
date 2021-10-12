@@ -30,8 +30,7 @@ great{
   border-width: 5px;
 }
 
-p{margin: auto;
-  top: 50%;
+p{margin-top: 5%;
   width: 70%;
   font-size:x-large;
   color: white;
@@ -45,6 +44,7 @@ p{margin: auto;
 
 form{
   padding: 50px;
+  margin-top: 10%;
   align-self: auto;
   background: rgba( 37, 14, 14, 0.45 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -120,7 +120,7 @@ h1 {
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: italic;
-  top: 60px;
+  top: 8%;
   position: fixed;
   font-size: 75px;
   text-shadow: 0rem;
