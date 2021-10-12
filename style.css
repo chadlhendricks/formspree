@@ -43,15 +43,16 @@ p{margin-top: 5%;
   }
 
 form{
-  padding: 50px;
+  padding: 80px;
   margin-top: 10%;
-  align-self: auto;
+  height: 450px;
+  align-self:auto;
   background: rgba( 37, 14, 14, 0.45 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 1.5px );
 -webkit-backdrop-filter: blur( 1.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-radius: 50px;
+border: 2px solid rgba( 255, 255, 255, 0.18 );
 
 
 }
@@ -103,13 +104,17 @@ text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 
 #sendbut{
   font-size: x-large;
-margin-left: 40%;
+  display: inline-block;
+margin-left: 16%;
 }
 
-table{
-  margin: 60%;
-  padding: 1030;
+#resetbutt{
+  font-size: x-large;
+  margin-left: 30%;
+
 }
+
+
    
 label{
   font-size:x-large;
@@ -121,7 +126,7 @@ h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: italic;
   top: 8%;
-  position: fixed;
+  position:fixed  ;
   font-size: 75px;
   text-shadow: 0rem;
   color: rgb(255, 136, 0);
@@ -133,8 +138,9 @@ h1 {
 }
 
 table{
-  margin:20px;
+  margin:25px;
   padding: 20px;
+  width:70%;
 }
 
 .flex-container {
@@ -344,7 +350,6 @@ p3{color:black}
 #page5{
   -webkit-border-radius: 50px;
 border-radius: 50px;
-background: #202229;
 -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
 box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
 }
