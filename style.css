@@ -8,11 +8,19 @@ html{
     color: white;
 }
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
 img {
   display: block;  
   -webkit-clip-path: url(#mask);
   clip-path: url(#mask);
   margin: 0 auto;
+  
 }
 
 *{
@@ -44,16 +52,22 @@ p{margin-top: 5%;
 
 form{
   padding: 80px;
-  margin-top: 10%;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 50%;
   height: 450px;
-  align-self:auto;
   background: rgba( 37, 14, 14, 0.45 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 1.5px );
 -webkit-backdrop-filter: blur( 1.5px );
 border-radius: 50px;
 border: 2px solid rgba( 255, 255, 255, 0.18 );
+}
 
+#gmaps{
+  border-radius: 50px;
+  margin-top: -37%;
+  margin-right: -40%;
 
 }
 
@@ -62,12 +76,6 @@ border: 2px solid rgba( 255, 255, 255, 0.18 );
   border-style:ridge;
   border-width: 1px;
   border-color: black;
-}
-
-iframe{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 ul{
@@ -143,27 +151,25 @@ table{
   width:70%;
 }
 
-.flex-container {
+.flex-container{
   display: flex;
   justify-content:space-evenly;
   flex-wrap:wrap;
   flex-direction:row;
-  gap:100px; 
-  padding: 100px;
-}
+  column-gap: 15px;
+  row-gap: 50px;
+  align-items:center}
 
 /*Flip Cards Start here!*/
 
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
  .flip-card {
+   margin-top: -20%;
   background-color: transparent;
   width: 300px;
   height: 300px;
-  padding: 50px;
-  border-radius: 25px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  display: flex;
-
+  display: inline-flex;
 }
 
 /* This container is needed to position the front and back side */
@@ -174,7 +180,6 @@ table{
   text-align: center;
   transition: transform 0.8s;
   border-style:ridge;
-
   transform-style: preserve-3d;
 }
 
@@ -194,7 +199,9 @@ table{
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: black;
+  width: 300px;
+  height: 300px;
   color: black;
 }
 
@@ -202,15 +209,14 @@ table{
 .flip-card-back {
   background-color: rgb(255, 30, 30);
   color: rgb(255, 255, 255);
+  width: 300px;
+  height: 300px;
   transform: rotateY(180deg);
 } 
 
 /* Timeline Code */
 
 
-* {
-  box-sizing: border-box;
-}
 
 /* Set a background color */
 body {
@@ -348,11 +354,10 @@ h3{
 p3{color:black}
 
 #page5{
+  box-sizing: border-box;
   -webkit-border-radius: 50px;
 border-radius: 50px;
 -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
 box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
 }
 
-#homepage{
-}
