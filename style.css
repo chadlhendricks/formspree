@@ -31,7 +31,7 @@ great{
 }
 
 p{margin: auto;
-  padding: 20px;
+  top: 50%;
   width: 70%;
   font-size:x-large;
   color: white;
@@ -118,12 +118,13 @@ label{
       
 h1 {
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
   top: 60px;
   position: fixed;
   font-size: 75px;
   text-shadow: 0rem;
   color: rgb(255, 136, 0);
-  background: rgba( 255, 255, 255, 0.4 );
 }
 
 #ContactUsHeading{
@@ -349,5 +350,4 @@ box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
 }
 
 #homepage{
-  background: #202229;
 }
